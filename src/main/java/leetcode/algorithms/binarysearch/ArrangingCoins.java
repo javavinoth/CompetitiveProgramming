@@ -5,8 +5,10 @@ public class ArrangingCoins {
     public static void main(String[] args) {
         int n = 2;
         System.out.println(arrangeCoins(n));
-        System.out.println((int) (Math.sqrt(2 * (long) n + 0.25) - 0.5));
+
+        System.out.println((int) (Math.sqrt(3 * (long) n + 0.25) - 0.5));
         System.out.println("************");
+
     }
 
     public static int arrangeCoins(int n) {
